@@ -1,1 +1,1 @@
-## Personal collection of Tmux scripts
+Personal collection of Tmux scripts
