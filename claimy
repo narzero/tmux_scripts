@@ -17,6 +17,7 @@ tmux send-keys -t development:1.1 'clear' C-m
 tmux send-keys -t development:1.2 'cd ~/Dropbox/Development/Rails' C-m
 sleep 30
 tmux send-keys -t development:1.2 'vagrant ssh' C-m
+sleep 5
 tmux send-keys -t development:1.2 'cd ../../vagrant/claimy' C-m
 tmux send-keys -t development:1.2 'clear' C-m
 tmux send-keys -t development:1.2 'rails s' C-m
